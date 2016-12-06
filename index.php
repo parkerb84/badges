@@ -14,11 +14,10 @@ $courses = $json_data['courses']['completed'];
   </head>
   <body>
     <header>
-      <h1>Badger</h1>
+      <h1>Completed CodeSchool Courses</h1>
       <h3><a href="https://parkerb84.github.io/">Back to Resume</a></h3>
     </header>
     <div class="container">
-      <h2>Courses User has completed.</h2>
         <div class="grid">
           <?php
             foreach ($courses as $course) {
